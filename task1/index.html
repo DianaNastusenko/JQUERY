@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JQuery Validation</title>
+  <link href="https://bootswatch.com/yeti/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <div class="container">
+    <form id="register-form">
+      <p>Sign up</p>
+      
+       <div class="form">
+        <input name="name" placeholder="Enter name" type="text">
+      </div>
+
+      <div class="form">
+        <input name="email" placeholder="Enter Email address" type="text">
+      </div>
+      
+      <div class="form">
+        <input name="date" placeholder="Enter date" type="text">
+      </div>
+      
+      <div class="form">
+        <input name="ip" placeholder="127.0.0.1" type="text">
+        </div>
+    
+      <div>
+        <input class="btn" id="submit-button" type="submit" value="Send">
+      </div>
+
+    </form>
+  </div>
+  <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js"></script>
+  <script src="validation.js"></script>
+
+</body>
+</html>
